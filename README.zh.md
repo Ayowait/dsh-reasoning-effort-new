@@ -1,9 +1,16 @@
 # dsh-reasoning-effort-new
 
 [![GitHub](https://img.shields.io/badge/GitHub-Ayowait%2Fdsh--reasoning--effort--new-181717?logo=github)](https://github.com/Ayowait/dsh-reasoning-effort-new)
+[![GitHub release](https://img.shields.io/github/v/release/Ayowait/dsh-reasoning-effort-new?logo=github&label=release)](https://github.com/Ayowait/dsh-reasoning-effort-new/releases/latest)
 [![许可证](https://img.shields.io/badge/license-MIT-79e5bd.svg)](LICENSE)
 
 > 让自定义 DeepSeek Harness Provider 真正拥有可用、可控的推理强度。
+
+
+## 下载
+
+- 直接下载（推荐）：[Releases](https://github.com/Ayowait/dsh-reasoning-effort-new/releases/latest) → 下载 `dsh-reasoning-effort-new-v0.2.8.zip`
+- 或用 Git 克隆：`git clone https://github.com/Ayowait/dsh-reasoning-effort-new.git`
 
 `dsh-reasoning-effort-new` 是一个独立的 DSH Bundle，在 `llm-pi-ai` 的 settings
 命名空间中补齐缺失的推理强度声明。它支持 Provider 默认值、按模型覆盖和

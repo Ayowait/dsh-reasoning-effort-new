@@ -17,7 +17,8 @@
     "assets",
     "README.md",
     "README.zh.md",
-    "LICENSE"
+    "LICENSE",
+    "src"
   ],
   "keywords": [
     "dsh",
@@ -29,7 +30,8 @@
     "model-settings",
     "llm-pi-ai",
     "typescript",
-    "cordis"
+    "cordis",
+    "plugin-market"
   ],
   "repository": {
     "type": "git",

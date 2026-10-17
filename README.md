@@ -1,9 +1,16 @@
 # dsh-reasoning-effort-new
 
 [![GitHub](https://img.shields.io/badge/GitHub-Ayowait%2Fdsh--reasoning--effort--new-181717?logo=github)](https://github.com/Ayowait/dsh-reasoning-effort-new)
+[![GitHub release](https://img.shields.io/github/v/release/Ayowait/dsh-reasoning-effort-new?logo=github&label=release)](https://github.com/Ayowait/dsh-reasoning-effort-new/releases/latest)
 [![许可证](https://img.shields.io/badge/license-MIT-79e5bd.svg)](LICENSE)
 
 > 为 DeepSeek Harness 中的任意模型设置推理强度，并在最高档点亮紫色动态特效。
+
+## 下载
+
+- 直接下载（推荐）：[Releases](https://github.com/Ayowait/dsh-reasoning-effort-new/releases/latest) → 下载 `dsh-reasoning-effort-new-v0.2.8.zip`
+- 或用 Git 克隆：`git clone https://github.com/Ayowait/dsh-reasoning-effort-new.git`
+
 
 `dsh-reasoning-effort-new` 用来补齐和管理模型的推理强度配置。不限制 Provider 或模型品牌：只要模型已经接入 DeepSeek Harness，就可以为它声明默认等级、模型级覆盖和实际协议值映射。
 
