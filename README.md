@@ -79,7 +79,7 @@ dsh web
 | `providers.<id>.models.<model-id>.efforts` | 单独覆盖某个模型的映射。 |
 | `providers.<id>.models.<model-id>.disabled` | 显式标记某个模型不使用推理强度。 |
 
-Harness 支持的等级为 `off`、`minimal`、`low`、`medium`、`high`、`xhigh` 和 `max`。内置协议映射覆盖 `low` 到 `max` 五个常用等级；特殊网关可以自行提供对应的实际值。
+面板**固定展示五档**：`off`、`low`、`medium`、`xhigh`、`max`（滑块上依次为 Off / Low / Medium / XHigh / Max）。注意：若某个模型或网关不支持其中某档，选择后可能被上游拒绝或静默降级。
 
 > Provider 必须已经存在于 `llm-pi-ai` settings 中。插件只增强现有 Provider，不会重新创建已经被删除的 Provider。
 
