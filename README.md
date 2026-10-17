@@ -35,14 +35,14 @@ _滑块会实时显示当前档位；到达最高级时，紫色发光效果会�
 
 ## 安装
 
-将 npm 上已构建的 Bundle 安装到 DSH web profile，然后重启正在运行的 Harness：
+将仓库里已构建的 Bundle 安装到 DSH web profile，然后重启正在运行的 Harness：
 
 ```sh
-dsh plugin --profile web add -w dsh-reasoning-effort-new
+dsh plugin --profile web add github:Ayowait/dsh-reasoning-effort-new
 dsh web
 ```
 
-包已经发布了预构建产物，正常安装不需要从源码编译插件。
+`lib/` 已经提交在仓库里，从 GitHub 安装不需要本地编译插件。
 
 ## 配置
 
