@@ -1,0 +1,6 @@
+# Bundle patch for dsh-reasoning-effort.
+
+- insert:
+    - id: reasoning-effort
+      name: dsh-reasoning-effort
+      config: {}
