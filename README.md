@@ -1,13 +1,11 @@
-# dsh-reasoning-effort
+# dsh-reasoning-effort-new
 
-[![npm 版本](https://img.shields.io/npm/v/dsh-reasoning-effort?logo=npm&logoColor=white)](https://www.npmjs.com/package/dsh-reasoning-effort)
-[![npm 下载量](https://img.shields.io/npm/dm/dsh-reasoning-effort?logo=npm&logoColor=white)](https://www.npmjs.com/package/dsh-reasoning-effort)
-[![GitHub](https://img.shields.io/badge/GitHub-Ayowait%2Fdsh--reasoning--effort-181717?logo=github)](https://github.com/Ayowait/dsh-reasoning-effort)
+[![GitHub](https://img.shields.io/badge/GitHub-Ayowait%2Fdsh--reasoning--effort--new-181717?logo=github)](https://github.com/Ayowait/dsh-reasoning-effort-new)
 [![许可证](https://img.shields.io/badge/license-MIT-79e5bd.svg)](LICENSE)
 
 > 为 DeepSeek Harness 中的任意模型设置推理强度，并在最高档点亮紫色动态特效。
 
-`dsh-reasoning-effort` 用来补齐和管理模型的推理强度配置。不限制 Provider 或模型品牌：只要模型已经接入 DeepSeek Harness，就可以为它声明默认等级、模型级覆盖和实际协议值映射。
+`dsh-reasoning-effort-new` 用来补齐和管理模型的推理强度配置。不限制 Provider 或模型品牌：只要模型已经接入 DeepSeek Harness，就可以为它声明默认等级、模型级覆盖和实际协议值映射。
 
 ![模型选择器与最高推理强度特效](assets/reasoning-effort-model-picker-max.png)
 
@@ -33,7 +31,7 @@ _滑块会实时显示当前档位；到达最高级时，紫色发光效果会�
 将 npm 上已构建的 Bundle 安装到 DSH web profile，然后重启正在运行的 Harness：
 
 ```sh
-dsh plugin --profile web add -w dsh-reasoning-effort
+dsh plugin --profile web add -w dsh-reasoning-effort-new
 dsh web
 ```
 
@@ -48,7 +46,7 @@ dsh web
 ```yaml
 - insert:
     - id: reasoning-effort
-      name: dsh-reasoning-effort
+      name: dsh-reasoning-effort-new
       config:
         defaults:
           reasoning: medium

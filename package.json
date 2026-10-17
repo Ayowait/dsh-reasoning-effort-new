@@ -1,5 +1,5 @@
 {
-  "name": "dsh-reasoning-effort",
+  "name": "dsh-reasoning-effort-new",
   "version": "0.2.8",
   "description": "Provider-aware reasoning effort settings and composer control for DeepSeek Harness.",
   "type": "module",
@@ -33,12 +33,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ayowait/dsh-reasoning-effort.git"
+    "url": "git+https://github.com/Ayowait/dsh-reasoning-effort-new.git"
   },
   "bugs": {
-    "url": "https://github.com/Ayowait/dsh-reasoning-effort/issues"
+    "url": "https://github.com/Ayowait/dsh-reasoning-effort-new/issues"
   },
-  "homepage": "https://github.com/Ayowait/dsh-reasoning-effort#readme",
+  "homepage": "https://github.com/Ayowait/dsh-reasoning-effort-new#readme",
   "license": "MIT",
   "publishConfig": {
     "access": "public"

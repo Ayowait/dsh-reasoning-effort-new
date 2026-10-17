@@ -1,13 +1,11 @@
-# dsh-reasoning-effort
+# dsh-reasoning-effort-new
 
-[![npm 版本](https://img.shields.io/npm/v/dsh-reasoning-effort?logo=npm&logoColor=white)](https://www.npmjs.com/package/dsh-reasoning-effort)
-[![npm 下载量](https://img.shields.io/npm/dm/dsh-reasoning-effort?logo=npm&logoColor=white)](https://www.npmjs.com/package/dsh-reasoning-effort)
-[![GitHub](https://img.shields.io/badge/GitHub-Ayowait%2Fdsh--reasoning--effort-181717?logo=github)](https://github.com/Ayowait/dsh-reasoning-effort)
+[![GitHub](https://img.shields.io/badge/GitHub-Ayowait%2Fdsh--reasoning--effort--new-181717?logo=github)](https://github.com/Ayowait/dsh-reasoning-effort-new)
 [![许可证](https://img.shields.io/badge/license-MIT-79e5bd.svg)](LICENSE)
 
 > 让自定义 DeepSeek Harness Provider 真正拥有可用、可控的推理强度。
 
-`dsh-reasoning-effort` 是一个独立的 DSH Bundle，在 `llm-pi-ai` 的 settings
+`dsh-reasoning-effort-new` 是一个独立的 DSH Bundle，在 `llm-pi-ai` 的 settings
 命名空间中补齐缺失的推理强度声明。它支持 Provider 默认值、按模型覆盖和
 协议 wire 值映射，同时不会替换已有设置。
 
@@ -42,7 +40,7 @@ _GIF 展示滑块在离散档位间移动；到达最高档时会出现紫色辉
 将 npm 上已构建的 Bundle 安装到 DSH web profile，然后重启正在运行的 Harness：
 
 ```sh
-dsh plugin --profile web add -w dsh-reasoning-effort
+dsh plugin --profile web add -w dsh-reasoning-effort-new
 dsh web
 ```
 
@@ -60,7 +58,7 @@ Bundle 不再把 `cliproxyapi`、`jyld` 或任何其他名称当作默认白名�
 ```yaml
 - insert:
     - id: reasoning-effort
-      name: dsh-reasoning-effort
+      name: dsh-reasoning-effort-new
       config:
         defaults:
           reasoning: medium
